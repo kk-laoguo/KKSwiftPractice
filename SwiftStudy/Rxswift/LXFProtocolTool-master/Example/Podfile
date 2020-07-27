@@ -1,0 +1,28 @@
+use_frameworks!
+
+target 'LXFProtocolTool_Example' do
+    
+  # pod 'LXFProtocolTool/LXFNibloadable', :path => '../'
+  # pod 'LXFProtocolTool/Refreshable', :path => '../'
+  # pod 'LXFProtocolTool/EmptyDataSetable', :path => '../'
+  # pod 'LXFProtocolTool/AssociatedObjectStore', :path => '../'
+  # pod 'LXFProtocolTool/Refreshable', :path => '../'
+  
+ pod 'LXFProtocolTool', :path => '../'
+
+
+  pod 'MoyaMapper'
+  pod 'MoyaMapper/Rx'
+  pod 'RxCocoa'
+  pod 'RxDataSources'
+  pod 'ReactorKit'
+  pod 'ReusableKit'
+  pod 'Then'
+  pod 'Kingfisher', '~> 4.8.0'
+
+  target 'LXFProtocolTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14845" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14799.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ButtonViewController" customModule="RXSwiftDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="button" destination="jeM-Cc-UND" id="t2O-AL-F5a"/>
+                <outlet property="button1" destination="6iG-IX-a1L" id="WOr-D5-SkO"/>
+                <outlet property="button2" destination="XaB-6Z-8ia" id="zZo-H4-RQh"/>
+                <outlet property="button3" destination="1CX-Hv-TmV" id="u2g-2a-SDr"/>
+                <outlet property="switchBar" destination="x1m-Us-8ZH" id="AfK-Wl-MaZ"/>
+                <outlet property="view" destination="V2y-mC-E5b" id="1Ce-mW-meu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="V2y-mC-E5b">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jeM-Cc-UND">
+                    <rect key="frame" x="157" y="144" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="0C0-HL-Evv"/>
+                        <constraint firstAttribute="height" constant="50" id="I3b-FH-31a"/>
+                    </constraints>
+                    <state key="normal" title="Button">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iG-IX-a1L">
+                    <rect key="frame" x="37" y="214" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="GBx-o5-21w"/>
+                        <constraint firstAttribute="height" constant="50" id="ZJR-rI-BTt"/>
+                    </constraints>
+                    <state key="normal" title="1号Button">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XaB-6Z-8ia">
+                    <rect key="frame" x="157" y="214" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="82S-EI-fVh"/>
+                        <constraint firstAttribute="width" constant="100" id="LXe-qE-IHq"/>
+                    </constraints>
+                    <state key="normal" title="2号Button">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1CX-Hv-TmV">
+                    <rect key="frame" x="277" y="214" width="100" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="I23-5u-bKE"/>
+                        <constraint firstAttribute="height" constant="50" id="qxw-ct-gYT"/>
+                    </constraints>
+                    <state key="normal" title="3号Button">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x1m-Us-8ZH">
+                    <rect key="frame" x="182.5" y="314" width="51" height="31"/>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="XaB-6Z-8ia" firstAttribute="top" secondItem="jeM-Cc-UND" secondAttribute="bottom" constant="20" id="6vw-M3-kfQ"/>
+                <constraint firstItem="1CX-Hv-TmV" firstAttribute="leading" secondItem="XaB-6Z-8ia" secondAttribute="trailing" constant="20" id="Dwc-Tx-HCc"/>
+                <constraint firstItem="XaB-6Z-8ia" firstAttribute="leading" secondItem="6iG-IX-a1L" secondAttribute="trailing" constant="20" id="EfH-z2-Jy5"/>
+                <constraint firstItem="6iG-IX-a1L" firstAttribute="centerY" secondItem="XaB-6Z-8ia" secondAttribute="centerY" id="NeG-z6-efa"/>
+                <constraint firstItem="XaB-6Z-8ia" firstAttribute="centerX" secondItem="V2y-mC-E5b" secondAttribute="centerX" id="bXb-Ia-9YC"/>
+                <constraint firstItem="x1m-Us-8ZH" firstAttribute="centerX" secondItem="V2y-mC-E5b" secondAttribute="centerX" id="cqi-wr-KWa"/>
+                <constraint firstItem="jeM-Cc-UND" firstAttribute="top" secondItem="Zbi-zB-Gyy" secondAttribute="top" constant="100" id="eTb-E2-mRH"/>
+                <constraint firstItem="1CX-Hv-TmV" firstAttribute="centerY" secondItem="XaB-6Z-8ia" secondAttribute="centerY" id="fhk-cn-B2V"/>
+                <constraint firstItem="jeM-Cc-UND" firstAttribute="centerX" secondItem="V2y-mC-E5b" secondAttribute="centerX" id="j0f-Fi-Ce7"/>
+                <constraint firstItem="x1m-Us-8ZH" firstAttribute="top" secondItem="XaB-6Z-8ia" secondAttribute="bottom" constant="50" id="pcZ-u6-42L"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Zbi-zB-Gyy"/>
+            <point key="canvasLocation" x="1974" y="98"/>
+        </view>
+    </objects>
+</document>

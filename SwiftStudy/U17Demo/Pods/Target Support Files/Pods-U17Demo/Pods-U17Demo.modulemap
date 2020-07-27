@@ -1,0 +1,6 @@
+framework module Pods_U17Demo {
+  umbrella header "Pods-U17Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

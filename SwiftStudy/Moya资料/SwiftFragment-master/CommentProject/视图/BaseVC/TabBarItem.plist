@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>classNavigationTitle</key>
+		<string>闭包</string>
+		<key>classClass</key>
+		<string>MSHomeVC</string>
+		<key>classImageName</key>
+		<string>home-gray</string>
+		<key>classSelectedImageName</key>
+		<string>home-blue</string>
+	</dict>
+	<dict>
+		<key>classNavigationTitle</key>
+		<string>Toast_Sheet</string>
+		<key>classClass</key>
+		<string>MSInfomationVC</string>
+		<key>classImageName</key>
+		<string>home-gray</string>
+		<key>classSelectedImageName</key>
+		<string>home-blue</string>
+	</dict>
+	<dict>
+		<key>classNavigationTitle</key>
+		<string>版本更新</string>
+		<key>classClass</key>
+		<string>MSTripVC</string>
+		<key>classImageName</key>
+		<string>home-gray</string>
+		<key>classSelectedImageName</key>
+		<string>home-blue</string>
+	</dict>
+	<dict>
+		<key>classNavigationTitle</key>
+		<string>网络请求</string>
+		<key>classClass</key>
+		<string>MSMyselfVC</string>
+		<key>classImageName</key>
+		<string>home-gray</string>
+		<key>classSelectedImageName</key>
+		<string>home-blue</string>
+	</dict>
+</array>
+</plist>

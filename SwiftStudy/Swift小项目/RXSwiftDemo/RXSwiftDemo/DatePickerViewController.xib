@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14845" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14799.2"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DatePickerViewController" customModule="RXSwiftDemo" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="MNR-iz-5Mj" id="kCH-ma-WsV"/>
+                <outlet property="lab" destination="15t-fh-VO7" id="EWr-pv-P1m"/>
+                <outlet property="startBtn" destination="pc4-XU-nL6" id="WYA-oy-z37"/>
+                <outlet property="timerPicker" destination="Mcm-ZD-65R" id="yFM-Pz-k7l"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="MNR-iz-5Mj">
+                    <rect key="frame" x="20" y="64" width="374" height="216"/>
+                </datePicker>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="15t-fh-VO7">
+                    <rect key="frame" x="20" y="300" width="374" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mcm-ZD-65R">
+                    <rect key="frame" x="20" y="341" width="374" height="216"/>
+                </datePicker>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pc4-XU-nL6">
+                    <rect key="frame" x="20" y="577" width="374" height="30"/>
+                    <state key="normal" title="开始"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pc4-XU-nL6" secondAttribute="trailing" constant="20" id="3fr-u0-7eh"/>
+                <constraint firstItem="15t-fh-VO7" firstAttribute="top" secondItem="MNR-iz-5Mj" secondAttribute="bottom" constant="20" id="6g1-Ru-xOq"/>
+                <constraint firstItem="Mcm-ZD-65R" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="8qw-W0-TGW"/>
+                <constraint firstItem="15t-fh-VO7" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="BBc-d4-qlg"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Mcm-ZD-65R" secondAttribute="trailing" constant="20" id="FIH-MC-MTt"/>
+                <constraint firstItem="pc4-XU-nL6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Gxv-w0-a7z"/>
+                <constraint firstItem="pc4-XU-nL6" firstAttribute="top" secondItem="Mcm-ZD-65R" secondAttribute="bottom" constant="20" id="Ja7-AK-Oxr"/>
+                <constraint firstItem="MNR-iz-5Mj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="Qc9-c1-LhQ"/>
+                <constraint firstItem="Mcm-ZD-65R" firstAttribute="top" secondItem="15t-fh-VO7" secondAttribute="bottom" constant="20" id="ZEq-N5-u07"/>
+                <constraint firstItem="MNR-iz-5Mj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="eLR-ZA-S91"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MNR-iz-5Mj" secondAttribute="trailing" constant="20" id="gfb-F3-K7H"/>
+                <constraint firstItem="pc4-XU-nL6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="sGW-g3-0Dt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="15t-fh-VO7" secondAttribute="trailing" constant="20" id="wRu-jP-FYi"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="139" y="95"/>
+        </view>
+    </objects>
+</document>

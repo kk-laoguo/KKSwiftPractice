@@ -1,0 +1,6 @@
+framework module Pods_ThreadTest {
+  umbrella header "Pods-ThreadTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4285E51F6ECBC1003D5F57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4285E41F6ECBC1003D5F57 /* AppDelegate.swift */; };
+		EA4285E71F6ECBC1003D5F57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4285E61F6ECBC1003D5F57 /* ViewController.swift */; };
+		EA4285EA1F6ECBC1003D5F57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4285E81F6ECBC1003D5F57 /* Main.storyboard */; };
+		EA4285EC1F6ECBC1003D5F57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4285EB1F6ECBC1003D5F57 /* Assets.xcassets */; };
+		EA4285EF1F6ECBC1003D5F57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4285ED1F6ECBC1003D5F57 /* LaunchScreen.storyboard */; };
+		EA4285FA1F6ECBC1003D5F57 /* _07______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4285F91F6ECBC1003D5F57 /* _07______Tests.swift */; };
+		EA4286051F6ECBC1003D5F57 /* _07______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4286041F6ECBC1003D5F57 /* _07______UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA4285F61F6ECBC1003D5F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4285D91F6ECBC1003D5F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4285E01F6ECBC1003D5F57;
+			remoteInfo = "007-加法计算器";
+		};
+		EA4286011F6ECBC1003D5F57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4285D91F6ECBC1003D5F57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA4285E01F6ECBC1003D5F57;
+			remoteInfo = "007-加法计算器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA4285E11F6ECBC1003D5F57 /* 007-加法计算器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "007-加法计算器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4285E41F6ECBC1003D5F57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4285E61F6ECBC1003D5F57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA4285E91F6ECBC1003D5F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4285EB1F6ECBC1003D5F57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4285EE1F6ECBC1003D5F57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4285F01F6ECBC1003D5F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4285F51F6ECBC1003D5F57 /* 007-加法计算器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "007-加法计算器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4285F91F6ECBC1003D5F57 /* _07______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_07______Tests.swift"; sourceTree = "<group>"; };
+		EA4285FB1F6ECBC1003D5F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4286001F6ECBC1003D5F57 /* 007-加法计算器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "007-加法计算器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4286041F6ECBC1003D5F57 /* _07______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_07______UITests.swift"; sourceTree = "<group>"; };
+		EA4286061F6ECBC1003D5F57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA4285DE1F6ECBC1003D5F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4285F21F6ECBC1003D5F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4285FD1F6ECBC1003D5F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4285D81F6ECBC1003D5F57 = {
+			isa = PBXGroup;
+			children = (
+				EA4285E31F6ECBC1003D5F57 /* 007-加法计算器 */,
+				EA4285F81F6ECBC1003D5F57 /* 007-加法计算器Tests */,
+				EA4286031F6ECBC1003D5F57 /* 007-加法计算器UITests */,
+				EA4285E21F6ECBC1003D5F57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4285E21F6ECBC1003D5F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4285E11F6ECBC1003D5F57 /* 007-加法计算器.app */,
+				EA4285F51F6ECBC1003D5F57 /* 007-加法计算器Tests.xctest */,
+				EA4286001F6ECBC1003D5F57 /* 007-加法计算器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4285E31F6ECBC1003D5F57 /* 007-加法计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				EA4285E41F6ECBC1003D5F57 /* AppDelegate.swift */,
+				EA4285E61F6ECBC1003D5F57 /* ViewController.swift */,
+				EA4285E81F6ECBC1003D5F57 /* Main.storyboard */,
+				EA4285EB1F6ECBC1003D5F57 /* Assets.xcassets */,
+				EA4285ED1F6ECBC1003D5F57 /* LaunchScreen.storyboard */,
+				EA4285F01F6ECBC1003D5F57 /* Info.plist */,
+			);
+			path = "007-加法计算器";
+			sourceTree = "<group>";
+		};
+		EA4285F81F6ECBC1003D5F57 /* 007-加法计算器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4285F91F6ECBC1003D5F57 /* _07______Tests.swift */,
+				EA4285FB1F6ECBC1003D5F57 /* Info.plist */,
+			);
+			path = "007-加法计算器Tests";
+			sourceTree = "<group>";
+		};
+		EA4286031F6ECBC1003D5F57 /* 007-加法计算器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4286041F6ECBC1003D5F57 /* _07______UITests.swift */,
+				EA4286061F6ECBC1003D5F57 /* Info.plist */,
+			);
+			path = "007-加法计算器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA4285E01F6ECBC1003D5F57 /* 007-加法计算器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4286091F6ECBC1003D5F57 /* Build configuration list for PBXNativeTarget "007-加法计算器" */;
+			buildPhases = (
+				EA4285DD1F6ECBC1003D5F57 /* Sources */,
+				EA4285DE1F6ECBC1003D5F57 /* Frameworks */,
+				EA4285DF1F6ECBC1003D5F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "007-加法计算器";
+			productName = "007-加法计算器";
+			productReference = EA4285E11F6ECBC1003D5F57 /* 007-加法计算器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA4285F41F6ECBC1003D5F57 /* 007-加法计算器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA42860C1F6ECBC1003D5F57 /* Build configuration list for PBXNativeTarget "007-加法计算器Tests" */;
+			buildPhases = (
+				EA4285F11F6ECBC1003D5F57 /* Sources */,
+				EA4285F21F6ECBC1003D5F57 /* Frameworks */,
+				EA4285F31F6ECBC1003D5F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4285F71F6ECBC1003D5F57 /* PBXTargetDependency */,
+			);
+			name = "007-加法计算器Tests";
+			productName = "007-加法计算器Tests";
+			productReference = EA4285F51F6ECBC1003D5F57 /* 007-加法计算器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA4285FF1F6ECBC1003D5F57 /* 007-加法计算器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA42860F1F6ECBC1003D5F57 /* Build configuration list for PBXNativeTarget "007-加法计算器UITests" */;
+			buildPhases = (
+				EA4285FC1F6ECBC1003D5F57 /* Sources */,
+				EA4285FD1F6ECBC1003D5F57 /* Frameworks */,
+				EA4285FE1F6ECBC1003D5F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4286021F6ECBC1003D5F57 /* PBXTargetDependency */,
+			);
+			name = "007-加法计算器UITests";
+			productName = "007-加法计算器UITests";
+			productReference = EA4286001F6ECBC1003D5F57 /* 007-加法计算器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4285D91F6ECBC1003D5F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GZY;
+				TargetAttributes = {
+					EA4285E01F6ECBC1003D5F57 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y798R64W36;
+						ProvisioningStyle = Automatic;
+					};
+					EA4285F41F6ECBC1003D5F57 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y798R64W36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA4285E01F6ECBC1003D5F57;
+					};
+					EA4285FF1F6ECBC1003D5F57 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y798R64W36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA4285E01F6ECBC1003D5F57;
+					};
+				};
+			};
+			buildConfigurationList = EA4285DC1F6ECBC1003D5F57 /* Build configuration list for PBXProject "007-加法计算器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4285D81F6ECBC1003D5F57;
+			productRefGroup = EA4285E21F6ECBC1003D5F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA4285E01F6ECBC1003D5F57 /* 007-加法计算器 */,
+				EA4285F41F6ECBC1003D5F57 /* 007-加法计算器Tests */,
+				EA4285FF1F6ECBC1003D5F57 /* 007-加法计算器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA4285DF1F6ECBC1003D5F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4285EF1F6ECBC1003D5F57 /* LaunchScreen.storyboard in Resources */,
+				EA4285EC1F6ECBC1003D5F57 /* Assets.xcassets in Resources */,
+				EA4285EA1F6ECBC1003D5F57 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4285F31F6ECBC1003D5F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4285FE1F6ECBC1003D5F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA4285DD1F6ECBC1003D5F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4285E71F6ECBC1003D5F57 /* ViewController.swift in Sources */,
+				EA4285E51F6ECBC1003D5F57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4285F11F6ECBC1003D5F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4285FA1F6ECBC1003D5F57 /* _07______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4285FC1F6ECBC1003D5F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4286051F6ECBC1003D5F57 /* _07______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA4285F71F6ECBC1003D5F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4285E01F6ECBC1003D5F57 /* 007-加法计算器 */;
+			targetProxy = EA4285F61F6ECBC1003D5F57 /* PBXContainerItemProxy */;
+		};
+		EA4286021F6ECBC1003D5F57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA4285E01F6ECBC1003D5F57 /* 007-加法计算器 */;
+			targetProxy = EA4286011F6ECBC1003D5F57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA4285E81F6ECBC1003D5F57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4285E91F6ECBC1003D5F57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA4285ED1F6ECBC1003D5F57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4285EE1F6ECBC1003D5F57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4286071F6ECBC1003D5F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA4286081F6ECBC1003D5F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA42860A1F6ECBC1003D5F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "007-加法计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-07------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA42860B1F6ECBC1003D5F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "007-加法计算器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-07------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA42860D1F6ECBC1003D5F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "007-加法计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-07------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/007-加法计算器.app/007-加法计算器";
+			};
+			name = Debug;
+		};
+		EA42860E1F6ECBC1003D5F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "007-加法计算器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-07------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/007-加法计算器.app/007-加法计算器";
+			};
+			name = Release;
+		};
+		EA4286101F6ECBC1003D5F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "007-加法计算器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-07------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "007-加法计算器";
+			};
+			name = Debug;
+		};
+		EA4286111F6ECBC1003D5F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "007-加法计算器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-07------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "007-加法计算器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA4285DC1F6ECBC1003D5F57 /* Build configuration list for PBXProject "007-加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4286071F6ECBC1003D5F57 /* Debug */,
+				EA4286081F6ECBC1003D5F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4286091F6ECBC1003D5F57 /* Build configuration list for PBXNativeTarget "007-加法计算器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA42860A1F6ECBC1003D5F57 /* Debug */,
+				EA42860B1F6ECBC1003D5F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA42860C1F6ECBC1003D5F57 /* Build configuration list for PBXNativeTarget "007-加法计算器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA42860D1F6ECBC1003D5F57 /* Debug */,
+				EA42860E1F6ECBC1003D5F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA42860F1F6ECBC1003D5F57 /* Build configuration list for PBXNativeTarget "007-加法计算器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4286101F6ECBC1003D5F57 /* Debug */,
+				EA4286111F6ECBC1003D5F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4285D91F6ECBC1003D5F57 /* Project object */;
+}

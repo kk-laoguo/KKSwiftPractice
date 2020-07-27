@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA4425A41F701EB700E29234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4425A31F701EB700E29234 /* AppDelegate.swift */; };
+		EA4425A61F701EB700E29234 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4425A51F701EB700E29234 /* ViewController.swift */; };
+		EA4425A91F701EB700E29234 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4425A71F701EB700E29234 /* Main.storyboard */; };
+		EA4425AB1F701EB700E29234 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA4425AA1F701EB700E29234 /* Assets.xcassets */; };
+		EA4425AE1F701EB700E29234 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA4425AC1F701EB700E29234 /* LaunchScreen.storyboard */; };
+		EA4425B91F701EB700E29234 /* _10__________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4425B81F701EB700E29234 /* _10__________Tests.swift */; };
+		EA4425C41F701EB700E29234 /* _10__________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4425C31F701EB700E29234 /* _10__________UITests.swift */; };
+		EA4425D21F701EC700E29234 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4425D11F701EC700E29234 /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA4425B51F701EB700E29234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4425981F701EB700E29234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA44259F1F701EB700E29234;
+			remoteInfo = "010-运行时加载属性列表";
+		};
+		EA4425C01F701EB700E29234 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA4425981F701EB700E29234 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA44259F1F701EB700E29234;
+			remoteInfo = "010-运行时加载属性列表";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA4425A01F701EB700E29234 /* 010-运行时加载属性列表.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "010-运行时加载属性列表.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4425A31F701EB700E29234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA4425A51F701EB700E29234 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA4425A81F701EB700E29234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA4425AA1F701EB700E29234 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA4425AD1F701EB700E29234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA4425AF1F701EB700E29234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4425B41F701EB700E29234 /* 010-运行时加载属性列表Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "010-运行时加载属性列表Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4425B81F701EB700E29234 /* _10__________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_10__________Tests.swift"; sourceTree = "<group>"; };
+		EA4425BA1F701EB700E29234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4425BF1F701EB700E29234 /* 010-运行时加载属性列表UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "010-运行时加载属性列表UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA4425C31F701EB700E29234 /* _10__________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_10__________UITests.swift"; sourceTree = "<group>"; };
+		EA4425C51F701EB700E29234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA4425D11F701EC700E29234 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA44259D1F701EB700E29234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4425B11F701EB700E29234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4425BC1F701EB700E29234 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA4425971F701EB700E29234 = {
+			isa = PBXGroup;
+			children = (
+				EA4425A21F701EB700E29234 /* 010-运行时加载属性列表 */,
+				EA4425B71F701EB700E29234 /* 010-运行时加载属性列表Tests */,
+				EA4425C21F701EB700E29234 /* 010-运行时加载属性列表UITests */,
+				EA4425A11F701EB700E29234 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA4425A11F701EB700E29234 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA4425A01F701EB700E29234 /* 010-运行时加载属性列表.app */,
+				EA4425B41F701EB700E29234 /* 010-运行时加载属性列表Tests.xctest */,
+				EA4425BF1F701EB700E29234 /* 010-运行时加载属性列表UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA4425A21F701EB700E29234 /* 010-运行时加载属性列表 */ = {
+			isa = PBXGroup;
+			children = (
+				EA4425A31F701EB700E29234 /* AppDelegate.swift */,
+				EA4425A51F701EB700E29234 /* ViewController.swift */,
+				EA4425D11F701EC700E29234 /* Person.swift */,
+				EA4425A71F701EB700E29234 /* Main.storyboard */,
+				EA4425AA1F701EB700E29234 /* Assets.xcassets */,
+				EA4425AC1F701EB700E29234 /* LaunchScreen.storyboard */,
+				EA4425AF1F701EB700E29234 /* Info.plist */,
+			);
+			path = "010-运行时加载属性列表";
+			sourceTree = "<group>";
+		};
+		EA4425B71F701EB700E29234 /* 010-运行时加载属性列表Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4425B81F701EB700E29234 /* _10__________Tests.swift */,
+				EA4425BA1F701EB700E29234 /* Info.plist */,
+			);
+			path = "010-运行时加载属性列表Tests";
+			sourceTree = "<group>";
+		};
+		EA4425C21F701EB700E29234 /* 010-运行时加载属性列表UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA4425C31F701EB700E29234 /* _10__________UITests.swift */,
+				EA4425C51F701EB700E29234 /* Info.plist */,
+			);
+			path = "010-运行时加载属性列表UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA44259F1F701EB700E29234 /* 010-运行时加载属性列表 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4425C81F701EB700E29234 /* Build configuration list for PBXNativeTarget "010-运行时加载属性列表" */;
+			buildPhases = (
+				EA44259C1F701EB700E29234 /* Sources */,
+				EA44259D1F701EB700E29234 /* Frameworks */,
+				EA44259E1F701EB700E29234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "010-运行时加载属性列表";
+			productName = "010-运行时加载属性列表";
+			productReference = EA4425A01F701EB700E29234 /* 010-运行时加载属性列表.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA4425B31F701EB700E29234 /* 010-运行时加载属性列表Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4425CB1F701EB700E29234 /* Build configuration list for PBXNativeTarget "010-运行时加载属性列表Tests" */;
+			buildPhases = (
+				EA4425B01F701EB700E29234 /* Sources */,
+				EA4425B11F701EB700E29234 /* Frameworks */,
+				EA4425B21F701EB700E29234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4425B61F701EB700E29234 /* PBXTargetDependency */,
+			);
+			name = "010-运行时加载属性列表Tests";
+			productName = "010-运行时加载属性列表Tests";
+			productReference = EA4425B41F701EB700E29234 /* 010-运行时加载属性列表Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA4425BE1F701EB700E29234 /* 010-运行时加载属性列表UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA4425CE1F701EB700E29234 /* Build configuration list for PBXNativeTarget "010-运行时加载属性列表UITests" */;
+			buildPhases = (
+				EA4425BB1F701EB700E29234 /* Sources */,
+				EA4425BC1F701EB700E29234 /* Frameworks */,
+				EA4425BD1F701EB700E29234 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA4425C11F701EB700E29234 /* PBXTargetDependency */,
+			);
+			name = "010-运行时加载属性列表UITests";
+			productName = "010-运行时加载属性列表UITests";
+			productReference = EA4425BF1F701EB700E29234 /* 010-运行时加载属性列表UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA4425981F701EB700E29234 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = GZY;
+				TargetAttributes = {
+					EA44259F1F701EB700E29234 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y798R64W36;
+						ProvisioningStyle = Automatic;
+					};
+					EA4425B31F701EB700E29234 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y798R64W36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA44259F1F701EB700E29234;
+					};
+					EA4425BE1F701EB700E29234 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Y798R64W36;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA44259F1F701EB700E29234;
+					};
+				};
+			};
+			buildConfigurationList = EA44259B1F701EB700E29234 /* Build configuration list for PBXProject "010-运行时加载属性列表" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA4425971F701EB700E29234;
+			productRefGroup = EA4425A11F701EB700E29234 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA44259F1F701EB700E29234 /* 010-运行时加载属性列表 */,
+				EA4425B31F701EB700E29234 /* 010-运行时加载属性列表Tests */,
+				EA4425BE1F701EB700E29234 /* 010-运行时加载属性列表UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA44259E1F701EB700E29234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4425AE1F701EB700E29234 /* LaunchScreen.storyboard in Resources */,
+				EA4425AB1F701EB700E29234 /* Assets.xcassets in Resources */,
+				EA4425A91F701EB700E29234 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4425B21F701EB700E29234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4425BD1F701EB700E29234 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA44259C1F701EB700E29234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4425D21F701EC700E29234 /* Person.swift in Sources */,
+				EA4425A61F701EB700E29234 /* ViewController.swift in Sources */,
+				EA4425A41F701EB700E29234 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4425B01F701EB700E29234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4425B91F701EB700E29234 /* _10__________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA4425BB1F701EB700E29234 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA4425C41F701EB700E29234 /* _10__________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA4425B61F701EB700E29234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA44259F1F701EB700E29234 /* 010-运行时加载属性列表 */;
+			targetProxy = EA4425B51F701EB700E29234 /* PBXContainerItemProxy */;
+		};
+		EA4425C11F701EB700E29234 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA44259F1F701EB700E29234 /* 010-运行时加载属性列表 */;
+			targetProxy = EA4425C01F701EB700E29234 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA4425A71F701EB700E29234 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4425A81F701EB700E29234 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA4425AC1F701EB700E29234 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA4425AD1F701EB700E29234 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA4425C61F701EB700E29234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA4425C71F701EB700E29234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA4425C91F701EB700E29234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "010-运行时加载属性列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-10----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA4425CA1F701EB700E29234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "010-运行时加载属性列表/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-10----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA4425CC1F701EB700E29234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "010-运行时加载属性列表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-10----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/010-运行时加载属性列表.app/010-运行时加载属性列表";
+			};
+			name = Debug;
+		};
+		EA4425CD1F701EB700E29234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "010-运行时加载属性列表Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-10----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/010-运行时加载属性列表.app/010-运行时加载属性列表";
+			};
+			name = Release;
+		};
+		EA4425CF1F701EB700E29234 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "010-运行时加载属性列表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-10----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "010-运行时加载属性列表";
+			};
+			name = Debug;
+		};
+		EA4425D01F701EB700E29234 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "010-运行时加载属性列表UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-10----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "010-运行时加载属性列表";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA44259B1F701EB700E29234 /* Build configuration list for PBXProject "010-运行时加载属性列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4425C61F701EB700E29234 /* Debug */,
+				EA4425C71F701EB700E29234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA4425C81F701EB700E29234 /* Build configuration list for PBXNativeTarget "010-运行时加载属性列表" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4425C91F701EB700E29234 /* Debug */,
+				EA4425CA1F701EB700E29234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA4425CB1F701EB700E29234 /* Build configuration list for PBXNativeTarget "010-运行时加载属性列表Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4425CC1F701EB700E29234 /* Debug */,
+				EA4425CD1F701EB700E29234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA4425CE1F701EB700E29234 /* Build configuration list for PBXNativeTarget "010-运行时加载属性列表UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA4425CF1F701EB700E29234 /* Debug */,
+				EA4425D01F701EB700E29234 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA4425981F701EB700E29234 /* Project object */;
+}

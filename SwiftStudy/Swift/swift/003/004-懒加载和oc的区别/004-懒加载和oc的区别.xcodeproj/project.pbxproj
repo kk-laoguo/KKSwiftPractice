@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA72A2F81F7BDC7500BBAD79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72A2F71F7BDC7500BBAD79 /* AppDelegate.swift */; };
+		EA72A2FA1F7BDC7500BBAD79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72A2F91F7BDC7500BBAD79 /* ViewController.swift */; };
+		EA72A2FD1F7BDC7500BBAD79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA72A2FB1F7BDC7500BBAD79 /* Main.storyboard */; };
+		EA72A2FF1F7BDC7500BBAD79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA72A2FE1F7BDC7500BBAD79 /* Assets.xcassets */; };
+		EA72A3021F7BDC7500BBAD79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA72A3001F7BDC7500BBAD79 /* LaunchScreen.storyboard */; };
+		EA72A30D1F7BDC7500BBAD79 /* _04_____oc___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72A30C1F7BDC7500BBAD79 /* _04_____oc___Tests.swift */; };
+		EA72A3181F7BDC7500BBAD79 /* _04_____oc___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA72A3171F7BDC7500BBAD79 /* _04_____oc___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA72A3091F7BDC7500BBAD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA72A2EC1F7BDC7500BBAD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA72A2F31F7BDC7500BBAD79;
+			remoteInfo = "004-懒加载和oc的区别";
+		};
+		EA72A3141F7BDC7500BBAD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA72A2EC1F7BDC7500BBAD79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA72A2F31F7BDC7500BBAD79;
+			remoteInfo = "004-懒加载和oc的区别";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA72A2F41F7BDC7500BBAD79 /* 004-懒加载和oc的区别.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "004-懒加载和oc的区别.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA72A2F71F7BDC7500BBAD79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA72A2F91F7BDC7500BBAD79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA72A2FC1F7BDC7500BBAD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA72A2FE1F7BDC7500BBAD79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA72A3011F7BDC7500BBAD79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA72A3031F7BDC7500BBAD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA72A3081F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "004-懒加载和oc的区别Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA72A30C1F7BDC7500BBAD79 /* _04_____oc___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_04_____oc___Tests.swift"; sourceTree = "<group>"; };
+		EA72A30E1F7BDC7500BBAD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA72A3131F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "004-懒加载和oc的区别UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA72A3171F7BDC7500BBAD79 /* _04_____oc___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_04_____oc___UITests.swift"; sourceTree = "<group>"; };
+		EA72A3191F7BDC7500BBAD79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA72A2F11F7BDC7500BBAD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72A3051F7BDC7500BBAD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72A3101F7BDC7500BBAD79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA72A2EB1F7BDC7500BBAD79 = {
+			isa = PBXGroup;
+			children = (
+				EA72A2F61F7BDC7500BBAD79 /* 004-懒加载和oc的区别 */,
+				EA72A30B1F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests */,
+				EA72A3161F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests */,
+				EA72A2F51F7BDC7500BBAD79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA72A2F51F7BDC7500BBAD79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA72A2F41F7BDC7500BBAD79 /* 004-懒加载和oc的区别.app */,
+				EA72A3081F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests.xctest */,
+				EA72A3131F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA72A2F61F7BDC7500BBAD79 /* 004-懒加载和oc的区别 */ = {
+			isa = PBXGroup;
+			children = (
+				EA72A2F71F7BDC7500BBAD79 /* AppDelegate.swift */,
+				EA72A2F91F7BDC7500BBAD79 /* ViewController.swift */,
+				EA72A2FB1F7BDC7500BBAD79 /* Main.storyboard */,
+				EA72A2FE1F7BDC7500BBAD79 /* Assets.xcassets */,
+				EA72A3001F7BDC7500BBAD79 /* LaunchScreen.storyboard */,
+				EA72A3031F7BDC7500BBAD79 /* Info.plist */,
+			);
+			path = "004-懒加载和oc的区别";
+			sourceTree = "<group>";
+		};
+		EA72A30B1F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EA72A30C1F7BDC7500BBAD79 /* _04_____oc___Tests.swift */,
+				EA72A30E1F7BDC7500BBAD79 /* Info.plist */,
+			);
+			path = "004-懒加载和oc的区别Tests";
+			sourceTree = "<group>";
+		};
+		EA72A3161F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA72A3171F7BDC7500BBAD79 /* _04_____oc___UITests.swift */,
+				EA72A3191F7BDC7500BBAD79 /* Info.plist */,
+			);
+			path = "004-懒加载和oc的区别UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA72A2F31F7BDC7500BBAD79 /* 004-懒加载和oc的区别 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA72A31C1F7BDC7500BBAD79 /* Build configuration list for PBXNativeTarget "004-懒加载和oc的区别" */;
+			buildPhases = (
+				EA72A2F01F7BDC7500BBAD79 /* Sources */,
+				EA72A2F11F7BDC7500BBAD79 /* Frameworks */,
+				EA72A2F21F7BDC7500BBAD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "004-懒加载和oc的区别";
+			productName = "004-懒加载和oc的区别";
+			productReference = EA72A2F41F7BDC7500BBAD79 /* 004-懒加载和oc的区别.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA72A3071F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA72A31F1F7BDC7500BBAD79 /* Build configuration list for PBXNativeTarget "004-懒加载和oc的区别Tests" */;
+			buildPhases = (
+				EA72A3041F7BDC7500BBAD79 /* Sources */,
+				EA72A3051F7BDC7500BBAD79 /* Frameworks */,
+				EA72A3061F7BDC7500BBAD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA72A30A1F7BDC7500BBAD79 /* PBXTargetDependency */,
+			);
+			name = "004-懒加载和oc的区别Tests";
+			productName = "004-懒加载和oc的区别Tests";
+			productReference = EA72A3081F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA72A3121F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA72A3221F7BDC7500BBAD79 /* Build configuration list for PBXNativeTarget "004-懒加载和oc的区别UITests" */;
+			buildPhases = (
+				EA72A30F1F7BDC7500BBAD79 /* Sources */,
+				EA72A3101F7BDC7500BBAD79 /* Frameworks */,
+				EA72A3111F7BDC7500BBAD79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA72A3151F7BDC7500BBAD79 /* PBXTargetDependency */,
+			);
+			name = "004-懒加载和oc的区别UITests";
+			productName = "004-懒加载和oc的区别UITests";
+			productReference = EA72A3131F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA72A2EC1F7BDC7500BBAD79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = GZY;
+				TargetAttributes = {
+					EA72A2F31F7BDC7500BBAD79 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EA72A3071F7BDC7500BBAD79 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA72A2F31F7BDC7500BBAD79;
+					};
+					EA72A3121F7BDC7500BBAD79 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA72A2F31F7BDC7500BBAD79;
+					};
+				};
+			};
+			buildConfigurationList = EA72A2EF1F7BDC7500BBAD79 /* Build configuration list for PBXProject "004-懒加载和oc的区别" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA72A2EB1F7BDC7500BBAD79;
+			productRefGroup = EA72A2F51F7BDC7500BBAD79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA72A2F31F7BDC7500BBAD79 /* 004-懒加载和oc的区别 */,
+				EA72A3071F7BDC7500BBAD79 /* 004-懒加载和oc的区别Tests */,
+				EA72A3121F7BDC7500BBAD79 /* 004-懒加载和oc的区别UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA72A2F21F7BDC7500BBAD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72A3021F7BDC7500BBAD79 /* LaunchScreen.storyboard in Resources */,
+				EA72A2FF1F7BDC7500BBAD79 /* Assets.xcassets in Resources */,
+				EA72A2FD1F7BDC7500BBAD79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72A3061F7BDC7500BBAD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72A3111F7BDC7500BBAD79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA72A2F01F7BDC7500BBAD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72A2FA1F7BDC7500BBAD79 /* ViewController.swift in Sources */,
+				EA72A2F81F7BDC7500BBAD79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72A3041F7BDC7500BBAD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72A30D1F7BDC7500BBAD79 /* _04_____oc___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA72A30F1F7BDC7500BBAD79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA72A3181F7BDC7500BBAD79 /* _04_____oc___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA72A30A1F7BDC7500BBAD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA72A2F31F7BDC7500BBAD79 /* 004-懒加载和oc的区别 */;
+			targetProxy = EA72A3091F7BDC7500BBAD79 /* PBXContainerItemProxy */;
+		};
+		EA72A3151F7BDC7500BBAD79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA72A2F31F7BDC7500BBAD79 /* 004-懒加载和oc的区别 */;
+			targetProxy = EA72A3141F7BDC7500BBAD79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA72A2FB1F7BDC7500BBAD79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA72A2FC1F7BDC7500BBAD79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA72A3001F7BDC7500BBAD79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA72A3011F7BDC7500BBAD79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA72A31A1F7BDC7500BBAD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA72A31B1F7BDC7500BBAD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA72A31D1F7BDC7500BBAD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "004-懒加载和oc的区别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-04-----oc---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA72A31E1F7BDC7500BBAD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "004-懒加载和oc的区别/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-04-----oc---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA72A3201F7BDC7500BBAD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "004-懒加载和oc的区别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-04-----oc---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/004-懒加载和oc的区别.app/004-懒加载和oc的区别";
+			};
+			name = Debug;
+		};
+		EA72A3211F7BDC7500BBAD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "004-懒加载和oc的区别Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-04-----oc---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/004-懒加载和oc的区别.app/004-懒加载和oc的区别";
+			};
+			name = Release;
+		};
+		EA72A3231F7BDC7500BBAD79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "004-懒加载和oc的区别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-04-----oc---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "004-懒加载和oc的区别";
+			};
+			name = Debug;
+		};
+		EA72A3241F7BDC7500BBAD79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y798R64W36;
+				INFOPLIST_FILE = "004-懒加载和oc的区别UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bestera.test.-04-----oc---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "004-懒加载和oc的区别";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA72A2EF1F7BDC7500BBAD79 /* Build configuration list for PBXProject "004-懒加载和oc的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72A31A1F7BDC7500BBAD79 /* Debug */,
+				EA72A31B1F7BDC7500BBAD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA72A31C1F7BDC7500BBAD79 /* Build configuration list for PBXNativeTarget "004-懒加载和oc的区别" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72A31D1F7BDC7500BBAD79 /* Debug */,
+				EA72A31E1F7BDC7500BBAD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA72A31F1F7BDC7500BBAD79 /* Build configuration list for PBXNativeTarget "004-懒加载和oc的区别Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72A3201F7BDC7500BBAD79 /* Debug */,
+				EA72A3211F7BDC7500BBAD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA72A3221F7BDC7500BBAD79 /* Build configuration list for PBXNativeTarget "004-懒加载和oc的区别UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA72A3231F7BDC7500BBAD79 /* Debug */,
+				EA72A3241F7BDC7500BBAD79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA72A2EC1F7BDC7500BBAD79 /* Project object */;
+}
